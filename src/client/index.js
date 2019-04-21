@@ -115,7 +115,7 @@ export class BncClient {
    * @param {String} network Indicate testnet or mainnet
    */
   chooseNetwork(network){
-    this.addressPrefix = NETWORK_PREFIX_MAPPING[network] || "tbnb"
+    this.addressPrefix = NETWORK_PREFIX_MAPPING[network] || "bnb"
     this.network = NETWORK_PREFIX_MAPPING[network] ? network : "testnet"
   }
 

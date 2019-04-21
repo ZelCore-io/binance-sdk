@@ -61,7 +61,7 @@ export const checkAddress = (address) => {
  * @param {*} prefix the address prefix
  * @param {*} type the output type (default: hex)
  */
-export const encodeAddress = (value, prefix = "tbnb", type = "hex") => {
+export const encodeAddress = (value, prefix = "bnb", type = "hex") => {
   const words = bech32.toWords(Buffer.from(value, type))
   return bech32.encode(prefix, words)
 }
