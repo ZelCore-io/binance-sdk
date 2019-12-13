@@ -45,7 +45,7 @@
     "http-server": "^0.11.1",
     "jest": "^23.6.0",
     "jsdoc-to-markdown": "^4.0.1",
-    "qunit": "^2.9.1"
+    "qunit": "^2.9.3"
   },
   "babel": {
     "presets": [
